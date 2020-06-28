@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "293751952750",
+    "firebase_url": "https://fridgy-4362f.firebaseio.com",
+    "project_id": "fridgy-4362f",
+    "storage_bucket": "fridgy-4362f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293751952750:android:35362c8cf8910b90215d7f",
+        "android_client_info": {
+          "package_name": "com.example.fridgy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293751952750-0hjsmo8dl444kme0nj3ifhfgvtlh273k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM3-tWv6VQ9J7yOGCJcwKwi6Bj1Y94Feg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293751952750-0hjsmo8dl444kme0nj3ifhfgvtlh273k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
