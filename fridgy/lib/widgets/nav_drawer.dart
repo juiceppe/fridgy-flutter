@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:fridgy/main.dart';
+import 'package:rflutter_alert/rflutter_alert.dart';
 
 class NavDrawer extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return Drawer(
@@ -17,12 +20,7 @@ class NavDrawer extends StatelessWidget {
                 ),
           ),
           ListTile(
-            leading: Icon(Icons.input),
-            title: Text('Welcome'),
-            onTap: () => {},
-          ),
-          ListTile(
-            leading: Icon(Icons.verified_user),
+            leading: Icon(Icons.person),
             title: Text('Profile'),
             onTap: () => {Navigator.of(context).pop()},
           ),
@@ -32,13 +30,15 @@ class NavDrawer extends StatelessWidget {
             onTap: () => {Navigator.of(context).pop()},
           ),
           ListTile(
-            leading: Icon(Icons.border_color),
-            title: Text('Feedback'),
-            onTap: () => {Navigator.of(context).pop()},
+            leading: Icon(Icons.create_new_folder),
+            title: Text('Group View'),
+            onTap: () => {Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => SecondPage()))},
           ),
           ListTile(
-            leading: Icon(Icons.exit_to_app),
-            title: Text('Logout'),
+            leading: Icon(Icons.border_color),
+            title: Text('Feedback'),
             onTap: () => {Navigator.of(context).pop()},
           ),
         ],
