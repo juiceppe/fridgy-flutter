@@ -276,9 +276,9 @@ Alert(
           ],)
                             .show();
                           } else {
+                            Navigator.pop(context);
                             return createFood();
-                          }
-                          
+                          }                    
                         })
                   ]).show();
               },
